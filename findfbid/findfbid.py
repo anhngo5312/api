@@ -2,7 +2,7 @@ import os
 import json
 import urllib.request
 from bs4 import BeautifulSoup
-from flask import Flask, request, jsonify
+from flask import Flask, request
 
 app = Flask(__name__)
 @app.route('/')
